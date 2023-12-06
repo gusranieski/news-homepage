@@ -7,7 +7,7 @@ export const Article = ({img, number, title, text}) => {
         </div>
         <div className='pl-6'>
             <p className='text-GrayishBlue text-3xl mb-2 font-bold'>{number}</p>
-            <h2 className='font-bold mb-2 hover:text-SoftOrange cursor-pointer'>{title}</h2>
+            <h2 className='mb-2 hover:text-SoftRed cursor-pointer font-extrabold'>{title}</h2>
             <p className='text-DarkGrayishBlue'>{text}</p>
         </div>
     </article>

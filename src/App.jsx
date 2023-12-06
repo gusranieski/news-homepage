@@ -7,7 +7,7 @@ function App() {
   return (
     <main className="px-4 py-6">
       <Header />
-      <div className='lg:flex lg:gap-8'>
+      <div className='lg:flex lg:gap-8 lg:h-[690px]'>
         <MainArticle />
         <NewContainer />
       </div>
